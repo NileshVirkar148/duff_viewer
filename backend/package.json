@@ -1,0 +1,14 @@
+{
+    "name": "folder-diff-viewer",
+    "version": "1.0.0",
+    "description": "A Node.js backend to compare files in two folder structures",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "diff": "^5.2.0",
+        "express": "^4.21.2"
+    }
+}
